@@ -10,6 +10,9 @@ input[type=text], input[type=email]{
     border-radius: 5px;
     
 }
+input[type=radio]{
+    margin: 5px 10px;
+}
 input[type=submit]{
     background-color: #da2828; /* Green */
     border: none;
@@ -18,7 +21,7 @@ input[type=submit]{
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px auto;
     border-radius: 12px;
     cursor: pointer;
 }
@@ -30,5 +33,5 @@ input:required:valid{
 }
 .upozornenie{
     color: red;
-    font-size: 6px;
+    font-size: 10px;
 }
