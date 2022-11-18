@@ -72,8 +72,21 @@
     </textarea>
     <br><br>
     <p class=upozornenie>Polia s červeným rámčekom sú povinné údaje!</p>
-    <input type="submit" value="Odoslat">  
+    <input type="submit" name="submit" value="Odoslat">  
 </form>
 </div>
 </body>
 </html>
+
+<?php
+if (isset($_POST['submit'])) {
+    $meno = "Meno:".$_POST['meno']"";
+    $priezvisko = "Priezvisko:".$_POST['priezvisko']"";
+
+    $file = fopen("odpovede.txt", "a");
+    fwrite($file, $meno);
+    fwrite($file, $priezvisko);
+    
+    fclose($file);
+}
+?>
