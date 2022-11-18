@@ -81,12 +81,12 @@
 <?php
 if (isset($_POST['submit'])) {
     $meno = "Meno:".$_POST["meno"]."";
-    $priezvisko = "Priezvisko:".$_POST["priezvisko"]."/n";
-    $email = "E-mail".$_POST["email"]."/n";
-    $tel = "Telefon:".$_POST["telefon"]."/n";
-    $radio = "Nakup na firmu:".$_POST["odpoved"]."/n";
-    $oddelenie = "Oddelenie pre kontaktovanie:".$_POST["oddelenie"]."/n";
-    $poznamka = "Poznamka:".$_POST["poznamka"]."/n";
+    $priezvisko = "Priezvisko:".$_POST["priezvisko"]."\n";
+    $email = "E-mail".$_POST["email"]."\n";
+    $tel = "Telefon:".$_POST["telefon"]."\n";
+    $radio = "Nakup na firmu:".$_POST["odpoved"]."\n";
+    $oddelenie = "Oddelenie pre kontaktovanie:".$_POST["oddelenie"]."\n";
+    $poznamka = "Poznamka:".$_POST["poznamka"]."\n";
 
     $file = fopen("odpovede.txt", "a");
     fwrite($file, $meno);
