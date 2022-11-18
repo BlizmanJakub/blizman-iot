@@ -80,8 +80,8 @@
 
 <?php
 if (isset($_POST['submit'])) {
-    $meno = "Meno:".$_POST['meno']"";
-    $priezvisko = "Priezvisko:".$_POST['priezvisko']"";
+    $meno = "Meno:".$_POST['meno']."";
+    $priezvisko = "Priezvisko:".$_POST['priezvisko']."";
 
     $file = fopen("odpovede.txt", "a");
     fwrite($file, $meno);
