@@ -65,6 +65,7 @@
             cols="40">
     </textarea>
     <br><br>
+    <p class=upozornenie>Policka s cervenym ramcekom su povinne udaje!</p>
     <input type="submit" value="Odoslat">  
 </form>
 </div>
