@@ -13,26 +13,26 @@
     Meno: 
     <input type="text" 
             name="meno" 
-            placeholder="Sem zadajte meno";
+            placeholder="Sem zadajte meno"
             required
     >
     Priezvisko:
     <input type="text" 
             name="priezvisko"
-            placeholder="Sem zadajte priezvisko"; 
+            placeholder="Sem zadajte priezvisko"
             required
     >
     <br><br>
     E-mail: 
     <input type="email" 
             name="email"
-            placeholder="Sem zadajte váš e-mail";
+            placeholder="Sem zadajte váš e-mail"
             required
     >
     Telefón: 
     <input type="text" 
             name="telefon"
-            placeholder="Sem zadajte tel.č.";
+            placeholder="Sem zadajte tel.č."
     >
     <br><br>
     Jedná sa o nákup pre firmu?
@@ -53,7 +53,7 @@
             id="oddelenie" 
             name="oddelenie" 
             list="oddelenia"
-            placeholder="Vyberte jedno z oddelení";
+            placeholder="Vyberte jedno z oddelení"
             required
     >
         <datalist id="oddelenia">
@@ -68,7 +68,7 @@
     <textarea name="poznamka" 
             rows="5" 
             cols="40"
-            placeholder="Sem napíšte detaily ohľadom vašej požiadavky";>
+            placeholder="Sem napíšte detaily ohľadom vašej požiadavky">
     </textarea>
     <br><br>
     <p class=upozornenie>Polia s červeným rámčekom sú povinné údaje!</p>
