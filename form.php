@@ -2,12 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styleForm.css">
     <title>Kontaktny formular</title>
 </head>
 <body>  
 
 <?php echo '<h2>Formular pre kontakotovanie zakaznikych oddeleni</h2>'; ?>
-
+<div class="form">
 <form method="post">  
     Meno: 
     <input type="text" 
@@ -36,8 +37,6 @@
             name="odpoved" 
             value="ano"
     >Ano
-
-    <br>
     <input type="radio" 
             name="odpoved" 
             value="nie"
@@ -56,7 +55,7 @@
             <option value="Logisticke oddelenie">
             <option value="Sklad">
         </datalist>
-    <br>
+    <br><br>
     Poznamka: 
     <br>
     <textarea name="poznamka" 
@@ -66,6 +65,6 @@
     <br><br>
     <input type="submit" value="Odoslat">  
 </form>
-
+</div>
 </body>
 </html>
