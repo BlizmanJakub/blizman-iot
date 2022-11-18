@@ -33,14 +33,16 @@
     <br><br>
     Jedna sa o nakup pre firmu?
     <br>
+    Ano
     <input type="radio" 
             name="odpoved" 
             value="ano"
-    >Ano
+    >
+    Nie
     <input type="radio" 
             name="odpoved" 
             value="nie"
-    >Nie
+    >
     <br><br>
     Ktore oddelenie chcete kontaktovat?
     <input type="text" 
