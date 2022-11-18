@@ -9,7 +9,7 @@
 <?php echo '<h2>Formular pre kontakotovanie zakaznikych oddeleni</h2>'; ?>
 
 <form method="post">  
-    Meno: <input type="text" name="name" value="<?php echo $name;?>">
+    Meno: <input type="text" name="name" value="<?php echo $na;?>">
     <br><br>
     E-mail: <input type="email" name="email" value="<?php echo $email;?>">
     <br><br>
