@@ -14,19 +14,24 @@
             name="meno" 
             required
     >
+    Priezvisko:
+    <input type="text" 
+            name="priezvisko" 
+            required
+    >
     <br><br>
     E-mail: 
     <input type="email" 
             name="email"
             required
     >
-    <br><br>
     Telefon: 
     <input type="text" 
             name="telefon"
     >
     <br><br>
     Jedna sa o nakup pre firmu?
+    <br>
     <input type="radio" 
             name="odpoved" 
             value="ano"
@@ -53,6 +58,7 @@
         </datalist>
     <br>
     Poznamka: 
+    <br>
     <textarea name="poznamka" 
             rows="5" 
             cols="40">
