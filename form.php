@@ -7,31 +7,35 @@
 </head>
 <body>  
 
-<?php echo '<h2>Formular pre kontakotovanie zakaznikych oddeleni</h2>'; ?>
+<h2 class=nadpis>Formular pre kontakotovanie zákaznickych oddelení</h2>
 <div class="form">
 <form method="post">  
     Meno: 
     <input type="text" 
             name="meno" 
+            placeholder="Sem zadajte meno";
             required
     >
     Priezvisko:
     <input type="text" 
-            name="priezvisko" 
+            name="priezvisko"
+            placeholder="Sem zadajte priezvisko"; 
             required
     >
     <br><br>
     E-mail: 
     <input type="email" 
             name="email"
+            placeholder="Sem zadajte váš e-mail";
             required
     >
-    Telefon: 
+    Telefón: 
     <input type="text" 
             name="telefon"
+            placeholder="Sem zadajte tel.č.";
     >
     <br><br>
-    Jedna sa o nakup pre firmu?
+    Jedná sa o nákup pre firmu?
     <br>
     Ano
     <input type="radio" 
@@ -44,11 +48,12 @@
             value="nie"
     >
     <br><br>
-    Ktore oddelenie chcete kontaktovat?
+    Ktoré oddelenie chcete kontaktovať?
     <input type="text" 
             id="oddelenie" 
             name="oddelenie" 
             list="oddelenia"
+            placeholder="Vyberte jedno z oddelení";
             required
     >
         <datalist id="oddelenia">
@@ -62,10 +67,11 @@
     <br>
     <textarea name="poznamka" 
             rows="5" 
-            cols="40">
+            cols="40"
+            placeholder="Sem napíšte detaily ohľadom vašej požiadavky";>
     </textarea>
     <br><br>
-    <p class=upozornenie>Policka s cervenym ramcekom su povinne udaje!</p>
+    <p class=upozornenie>Polia s červeným rámčekom sú povinné údaje!</p>
     <input type="submit" value="Odoslat">  
 </form>
 </div>
