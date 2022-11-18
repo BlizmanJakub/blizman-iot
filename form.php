@@ -82,11 +82,21 @@
 if (isset($_POST['submit'])) {
     $meno = "Meno:".$_POST["meno"]."";
     $priezvisko = "Priezvisko:".$_POST["priezvisko"]."";
+    $email = "E-mail".$_POST["email"]."";
+    $tel = "Telefon:".$_POST["telefon"]."";
+    $radio = "Nakup na firmu:".$_POST["odpoved"]."";
+    $oddelenie = "Oddelenie pre kontaktovanie:".$_POST["oddelenie"]."";
+    $poznamka = "Poznamka:".$_POST["poznamka"]."";
 
     $file = fopen("odpovede.txt", "a");
     fwrite($file, $meno);
     fwrite($file, $priezvisko);
-    
+    fwrite($file, $email);
+    fwrite($file, $tel);
+    fwrite($file, $radio);
+    fwrite($file, $oddelenie);
+    fwrite($file, $poznamka);
+
     fclose($file);
 }
 ?>
